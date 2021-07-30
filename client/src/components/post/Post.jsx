@@ -33,7 +33,7 @@ export default function Post({ post }) {
     setLike(isLiked ? like - 1 : like + 1);
     setIsLiked(!isLiked);
   };
-  return (
+  return (cd 
     <div className="post">
       <div className="postWrapper">
         <div className="postTop">
@@ -44,7 +44,7 @@ export default function Post({ post }) {
                 src={
                   user.profilePicture
                     ? PF + user.profilePicture
-                    : PF + "person/noAvatar.png"
+                    : PF + "person/ray.jpeg"
                 }
                 alt=""
               />
